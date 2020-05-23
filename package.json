@@ -4,7 +4,6 @@
   },
   "name": "project_2",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,8 +14,25 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "express-session": "^1.17.1",
     "method-override": "^3.0.0",
-    "mongoose": "^5.9.15"
-  }
+    "mongoose": "^5.9.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sali73/project_23.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sali73/project_23/issues"
+  },
+  "homepage": "https://github.com/sali73/project_23#readme",
+  "description": ""
 }
