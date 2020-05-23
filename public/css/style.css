@@ -1,0 +1,41 @@
+.grid{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "hd hd hd hd hd"
+    "arc arc arc arc arc"
+    "sid mn mn mn mn"
+    "ftr ftr ftr ftr ftr"
+    ;    
+}
+nav{
+    background-color: rosybrown;
+    grid-area: nav;
+}
+nav > ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color:rgb(252, 246, 247);
+    grid-area: hd;
+}
+article{
+    background-color:pink;
+    grid-area: arc;
+}
+main{
+    background-color: powderblue;
+    grid-area: mn;
+}
+footer{
+    background-color: purple;
+    grid-area: ftr;
+}
+aside{
+    background-color: rgb(51, 45, 51);
+    grid-area: sid;
+}
