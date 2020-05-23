@@ -37,7 +37,7 @@ app.get('/' , (req, res) => {
 });
 
 
-//ROUTE NEW
+//ROUTE NEWwwwwww
 app.get('/tour/new', (req, res)=>{
     res.render('New');
 });
