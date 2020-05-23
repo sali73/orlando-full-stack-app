@@ -33,7 +33,7 @@ app.engine('jsx', require('express-react-views').createEngine());
 // Routes
 //___________________
 app.get('/' , (req, res) => {
-  res.send('<a hrf="#"> continue to tour page</a>');
+  res.send('<a hrf="/tour"> continue to tour page</a>');
 });
 
 
