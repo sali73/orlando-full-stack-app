@@ -1,10 +1,11 @@
 const React = require('react');
+const Layout= require('./Layout.jsx');
 
 class Edit extends React.Component {
     render() {
         const { tour} = this.props;
         return (
-            <div>
+            <Layout>
                 <h1>Edit tour page</h1>
                 <form
                     action={`/tour/edit/${tour._id}?_method=put`}
@@ -20,7 +21,7 @@ class Edit extends React.Component {
                     
                     <input type="submit" name="" value="Edit tour" />
                 </form>
-            </div>
+            </Layout>
         );
     }
 }

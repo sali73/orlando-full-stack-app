@@ -7,7 +7,7 @@ class Show extends React.Component {
         const { name , location , img , rate , price , size} = this.props.tour;
         return (
             <Layout>
-                <div>
+                <div >
                     {/* <a href="/tour">back</a> */}
                     <h1>tour Show Page</h1>
                     <p>The {name} is {location} </p>

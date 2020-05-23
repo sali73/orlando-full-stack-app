@@ -17,10 +17,12 @@ const Layout = (props => {
                     <ul>
                       <li><a href="/tour">Home</a></li>
                       <li><a href="/tour/new">Create</a></li>
+                      <li></li>
                     </ul>  
                   </nav>
+
+                  <header></header>
                   
-                  <header>photo</header>
 
                   <article> crona</article>
                     

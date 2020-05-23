@@ -32,9 +32,9 @@ app.engine('jsx', require('express-react-views').createEngine());
 //___________________
 // Routes
 //___________________
-app.get('/' , (req, res) => {
-  res.send('<a hrf="/tour"> continue to tour page</a>');
-});
+// app.get('/' , (req, res) => {
+//   res.send('<a href="/tour"> continue </a>');
+// });
 
 
 //ROUTE NEW

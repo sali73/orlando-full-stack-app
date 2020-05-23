@@ -1,6 +1,8 @@
+body{
+    background-color: ;
+}
 .grid{
     display: grid;
-    grid-gap: 5px;
     grid-template-areas: 
     "nav nav nav nav nav"
     "hd hd hd hd hd"
@@ -8,23 +10,32 @@
     "sid mn mn mn mn"
     "ftr ftr ftr ftr ftr"
     ;    
+    grid-template-rows: 100px 500px 30px 800px 100px;
 }
 nav{
-    background-color: rosybrown;
     grid-area: nav;
+    margin-top: 10px;
+    
 }
 nav > ul{
     display: flex;
+    
 }
 li{
     list-style: none;
+    font-size: 2em;
+    padding-left: 30px;
+    color: white;
+    
 }
 header{
-    background-color:rgb(252, 246, 247);
+    background-image: url(https://www.enterprise.com/content/dam/ecom/locations/us/fl/orlando/city-hero-orlando.jpg);
     grid-area: hd;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 article{
-    background-color:pink;
+    background-color:rgb(247, 247, 139);
     grid-area: arc;
 }
 main{
