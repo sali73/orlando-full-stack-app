@@ -10,7 +10,7 @@ body{
     "mn mn mn mn mn"
     "ftr ftr ftr ftr ftr"
     ;    
-    grid-template-rows: 100px 500px 30px 2000px 250px;
+    grid-template-rows: 100px 500px 30px 2000px 160px;
 }
 nav{
     grid-area: nav;
@@ -59,16 +59,17 @@ footer{
     align-items: center;
 }
 footer > img{
-    width: 40%;
+    width: 30%;
     border-radius: 50%;
+    font-weight: 1em;
 }
 footer > ul{
 
     list-style: none;
     font-size: 1.5em;
-    line-height: 50px;
+    
     justify-items: left;
-    color: rgb(252, 202, 116);
+    color: rgba(252, 202, 116,.6);
 }
 footer > div ul{
     list-style: none;
@@ -79,7 +80,7 @@ footer > div ul{
 }
 .link{
     
-    color: rgb(252, 202, 116);
+    color: rgba(252, 202, 116,.6);
 }
 
 .container{
