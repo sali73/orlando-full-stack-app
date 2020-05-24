@@ -26,7 +26,7 @@ const Layout = (props => {
                     
                   <main>
                     <div>{props.children}</div>
-                    </main>
+                  </main>
 
                   
 

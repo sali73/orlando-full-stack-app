@@ -59,30 +59,70 @@ app.get('/tour', (req, res) => {
     });
 });
 
-// seed
+// // seed
 // app.get('/tour/seed', (req, res) => {
 //     Tour.create([
 //         {
-//             name: 'grapefruit',
+//             name: 'Universal Orlando Resort',
 //             location: 'pink',
-//             img:'https://placehold.it/100x100.png',
-//             rate:1111,
+//             img:'https://www.travelingmom.com/wp-content/uploads/2019/04/Universal-Ball-800x450.jpg',
+//             rate: 4.7,
 //             price:111,
 //             size:'11sq',
 //         },
 //         {
-//             name: 'gr',
+//             name: 'Walt Disney World Resort',
 //             location: 'pink',
-//             img:'https://placehold.it/100x100.png',
-//             rate:1111,
+//             img:'https://img.budgettravel.com/_ampArticle/Disney-World-Seven-Dwarfs.jpg?mtime=20181003120725',
+//             rate:4.7,
 //             price:111,
 //             size:'11sq',
 //         },
 //         {
-//             name: 'grap',
+//             name: 'Magic kingdom Park',
 //             location: 'pink',
-//             img:'https://placehold.it/100x100.png',
-//             rate:1111,
+//             img:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQeethLLiBQCEAtdxgr6BtcazWf72CiSHPZvSzeJFy928COrQn&usqp=CAU',
+//             rate:4.7,
+//             price:111,
+//             size:'11sq',
+//         },
+//         {
+//             name: 'Epcot',
+//             location: 'pink',
+//             img:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnW9vQ9SBNl9hVis4FbUmsb0fu22DpcaV0WO8zZe7-uPpHSBOv&usqp=CAU',
+//             rate:4.7,
+//             price:111,
+//             size:'11sq',
+//         },
+//            {
+//             name: 'SeaWorld Orlando',
+//             location: 'pink',
+//             img:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTX5Zdy50Rd3dARDWPj7EAjaI5Rt6K-TTf32KUBFy9CUW_dHG4I&usqp=CAU',
+//             rate:4.6,
+//             price:111,
+//             size:'11sq',
+//         },
+//            {
+//             name: "Universal's Islands Of adventure",
+//             location: 'pink',
+//             img:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRgoAQ6M-jntbY71xHxBYonx9YAKK4laOgHQE6CRhGA7cMHJZ_w&usqp=CAU',
+//             rate:4.8,
+//             price:111,
+//             size:'11sq',
+//         },
+//            {
+//             name: "Disney's Hellywood Studio",
+//             location: 'pink',
+//             img:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrSUt6_554sR0C4Zskr30oCXZBA2z_LC3IaMmkonaV4XWDjpb6&usqp=CAU',
+//             rate:4.8,
+//             price:111,
+//             size:'11sq',
+//         },
+//            {
+//             name: "Disney's Animal Kingdom Theme Park",
+//             location: 'pink',
+//             img:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIrdO6xEx1vW0Rw8VE2iNsLT1cr0gZUadK0LmvmzTO-bhOF57l&usqp=CAU',
+//             rate:4.7,
 //             price:111,
 //             size:'11sq',
 //         },
