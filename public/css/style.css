@@ -6,11 +6,11 @@ body{
     grid-template-areas: 
     "nav nav nav nav nav"
     "hd hd hd hd hd"
-    "arc arc arc arc arc"
-    "sid mn mn mn mn"
+    "ar ar ar ar ar"
+    "mn mn mn mn mn"
     "ftr ftr ftr ftr ftr"
     ;    
-    grid-template-rows: 100px 500px 30px 800px 100px;
+    grid-template-rows: 100px 500px 30px 2000px 250px;
 }
 nav{
     grid-area: nav;
@@ -19,34 +19,120 @@ nav{
 }
 nav > ul{
     display: flex;
-    
-}
-li{
     list-style: none;
-    font-size: 2em;
-    padding-left: 30px;
-    color: white;
     
 }
-header{
-    background-image: url(https://www.enterprise.com/content/dam/ecom/locations/us/fl/orlando/city-hero-orlando.jpg);
+.nav{
+    
+    font-size: 2em;
+    padding-left: 90px;
+    color: rgb(252, 202, 116);
+    
+    
+}
+header {
     grid-area: hd;
     background-repeat: no-repeat;
     background-size: cover;
 }
-article{
-    background-color:rgb(247, 247, 139);
-    grid-area: arc;
+header > img{
+    height: 100%;
+    width: 100%;
 }
+
 main{
-    background-color: powderblue;
-    grid-area: mn;
+    background-color:#343a40;
+    grid-area: mn; 
 }
+article{
+    background-color:#343a40;
+    grid-area: ar; 
+
+}
+
 footer{
-    background-color: purple;
+    background-color: rgb(42, 66, 203);
     grid-area: ftr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
-aside{
-    background-color: rgb(51, 45, 51);
-    grid-area: sid;
+footer > img{
+    width: 40%;
+    border-radius: 50%;
+}
+footer > ul{
+
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 50px;
+    justify-items: left;
+    color: rgb(252, 202, 116);
+}
+footer > div ul{
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 50px;
+    justify-items: left;
+    
+}
+.link{
+    
+    color: rgb(252, 202, 116);
+}
+
+.container{
+   background-color: rgb(42, 66, 203);
+   display: flex;
+}
+
+.button{
+    display: flex;  
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.btn-secondary{
+    margin-left: 10px;
+   
+}
+.left{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.card{
+    width: 18rem;
+    height: 25rem;
+    margin-top: 60px;
+  
+    
+}
+.card a{
+    font-size: 1em;
+    color: #343a40;
+}
+
+
+.new{
+    width: 800px;
+    height: 1000px;
+    margin-left: 300px;
+    color: rgb(252, 202, 116);
+    font-size: 1.5em;
+    padding: 70px;
+    background-color: rgb(42, 66, 203);
+    
+}
+.jumbotron {
+    background-color: rgb(42, 66, 203);
+    display:flex;
+    
+
+}
+.show{
+    
+    color: rgb(252, 202, 116);;
+
 }

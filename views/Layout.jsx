@@ -15,26 +15,39 @@ const Layout = (props => {
 
                   <nav class="navbar navbar-dark bg-dark">
                     <ul>
-                      <li><a href="/tour">Home</a></li>
-                      <li><a href="/tour/new">Create</a></li>
-                      <li></li>
+                      <li><a className="nav" href="/tour">Home</a></li>
+                      <li><a  className="nav" href="/tour/new">Create</a></li>
+                     
                     </ul>  
                   </nav>
 
-                  <header></header>
-                  
-
-                  <article> crona</article>
+                  <header><img src="/img/2.jpg" alt=""/></header>
+                  <article></article>
                     
                   <main>
-                    <h1> welcome to orlando </h1>
                     <div>{props.children}</div>
-                    
                     </main>
 
-                  <aside>map</aside>
+                  
 
-                  <footer>1</footer>
+                  <footer>
+                  <img src="/img/log.jpeg" alt=""/>
+                  <ul>
+                    <li>About Us</li>
+                    <li> FAQ</li>
+                    <li> Privacy Policy</li>
+                    <li>Terms of service</li>
+                  </ul>
+                  <div>
+                    <ul>
+                      <li><a  className='link' href="#">facebook</a></li>
+                      <li><a className='link' href="#">twitter</a></li>
+                      <li><a className='link' href="#">facebook</a></li>
+                    </ul>
+                    
+                  </div>
+                  </footer>
+
 
                 </div>
 
