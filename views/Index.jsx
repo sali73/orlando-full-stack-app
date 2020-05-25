@@ -14,10 +14,10 @@ class Index extends React.Component {
                 {
                    this.props.tour.map((tour, i) => {
                     return (
-                        <div className='container'>
-                            <div>
-                           
+                        <div >
+                            <div className='index'>
                                 <div className='card'>
+                                    
                                     <img src={tour.img}  class="card-img-top" alt=""/>
                                     <div class="card-body">
                                     <a href={`/tour/${tour._id}`}><h4>{tour.name}</h4></a><br/>
