@@ -143,7 +143,7 @@ h2{
 .about img{
     width: 500px;
     height: 300px;
-    border-radius: 10%;
+    border-radius: 1%;
     margin-left: 190px;
 }
 .about-img:hover{
