@@ -16,11 +16,16 @@ const Layout = (props => {
 
                   <nav class="navbar navbar-dark bg-dark">
                     <ul>
-                      <li><a className="nav" href="/tour">Home</a></li>
-                      <li><a  className="nav" href="/tour/new">Create</a></li>
-                      <li><a className="nav"  href="/tour/gallery">Gallery </a></li>
-                      <li><a className="nav"  href="/tour/about">About</a></li>
+                      <li><a className="nav" href="/tour"><h1>Home</h1></a></li>
+                      <li><a  className="nav" href="/tour/new"><h3>Create Sightsee </h3></a></li>
+                      <li><a className="nav"  href="/tour/gallery"><h3>Gallery</h3> </a></li>
+                      <li><a className="nav"  href="/tour/about"><h3>About</h3></a></li>
+                    </ul> 
+                    <ul className='user'>
+                      <li><a className="nav "  href="/user/new"><h3>Singup</h3> </a></li>
+                      <li><a className="nav "  href="/sessions/new"><h3>Login</h3> </a></li>
                     </ul>  
+
                   </nav>
                   <header><img src="/img/2.jpg" alt=""/></header>                    
                   <main>
@@ -39,7 +44,7 @@ const Layout = (props => {
                     <ul>
                       <li><a  className='link' href="#">facebook</a></li>
                       <li><a className='link' href="#">twitter</a></li>
-                      <li><a className='link' href="#">facebook</a></li>
+                      <li><a className='link' href="#">youtube</a></li>
                     </ul>
                     
                   </div>

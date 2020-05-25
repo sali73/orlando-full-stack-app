@@ -9,6 +9,7 @@ class New extends React.Component {
           
             <form action="/tour" method="POST">
               <div className='form-group'> 
+              <h1> Create A New Sightseeing!!</h1><br/>
 
                 <label for="exampleFormControlInput1"> Name: </label>
                 <input type="text" name="name" class="form-control form-control-lg" /><br/>
