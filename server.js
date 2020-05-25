@@ -24,7 +24,7 @@ app.use(methodOverride('_method'));
 require('dotenv').config()
 const port = process.env.PORT||3000
 app.use(
-    sessions({
+    session({
       secret: process.env.SECRET, 
       resave: false, 
       saveUninitialized: false 
@@ -38,22 +38,13 @@ app.use('/tour' , tourController)
 
 app.use('/user', userController)
 
-
-
-
-
-
 //mongoose connection
 
 mongoose.connect(process.env.MONGOURI, { useNewUrlParser: true, useUnifiedTopology: true });
 db.on('error', (err) => console.log(err.message + ' is Mongod not running?'));
-db.on('connected', () => console.log('mongo connected: ', MONGODB_URI));
+db.on('connected', () => console.log('mongo connected'));
 db.on('disconnected', () => console.log('mongo disconnected'));
 db.on('open' , ()=>{});
-
-
-
-
 
 ////////////////
 //Authorization Routes
