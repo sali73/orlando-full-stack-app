@@ -1,21 +1,17 @@
 body{
-    font-family: 'Open Sans', sans-serif;
-    
+    font-family: 'Open Sans', sans-serif;   
 }
 .grid{
     display: grid;
     grid-template-areas: 
     "nav nav nav nav nav"
     "hd hd hd hd hd"
-    
     "mn mn mn mn mn"
-    "ftr ftr ftr ftr ftr"
-    ;    
+    "ftr ftr ftr ftr ftr";    
     grid-template-rows: 80px 500px  auto 160px;
 }
 nav{
     grid-area: nav;
-   
 }
 nav > ul{
     display: flex;
@@ -26,8 +22,11 @@ nav > ul{
     padding-left: 40px;
     color: rgb(252, 202, 116);   
 }
-h3{
+.nav h3{
     margin-top: 10px;
+}
+.nav h1{
+    margin-top: 19px;
 }
 .user{
     float: left;
@@ -50,10 +49,8 @@ main{
     padding-left: 130px;
     margin-left: 165px;
     grid-area: mn; 
-    margin-top: 60px;
-    
+    margin-top: 60px;   
 }
-
 footer{
     background-color: rgb(42, 66, 203);
     grid-area: ftr;
@@ -114,37 +111,35 @@ footer > div ul{
     width: 287px;
     height: 169px;
 }
-
-.new{
-  
+.new{ 
     color: rgb(252, 202, 116);
     font-size: 1.5em;
-   
-    
     padding: 60px 250px  40px  90px;
-    
     background-color: rgb(42, 66, 203); 
 }
-
 .jumbotron {
     background-color: rgb(42, 66, 203);
     margin: 50px;
     width: 800px;
-    height: 1000px;
+    height: 1700px;
     padding-top: 80px; 
 }
 .show ,h2{
     color: rgb(252, 202, 116);
-
 }
-h2{
+h3 {
     color: rgb(252, 202, 116);
     line-height: 70px;
+}
+.show-text{
+    border: 2px solid;
+    padding: 50px;
+    line-height: 50px;
 }
 .jumbotron-fluid{
     background-color: rgb(42, 66, 203);
     margin-top: 40px;
-   padding-right: 80px;
+    padding-right: 80px;
     line-height: 2.5em;
     color: rgb(252, 202, 116);
 }
@@ -167,7 +162,6 @@ h2{
     background-color: rgb(42, 66, 203);
     margin-top: 40px;
     color: rgb(252, 202, 116);
-
 }
 .slider ul{
     list-style: none;
@@ -180,7 +174,6 @@ h2{
     height: 280px;
     margin: 10px;
     border-radius: 5%;
-
 }
 .gallery-h1{
     padding-bottom: 50px;
@@ -194,7 +187,6 @@ h2{
     margin-top: 100px;
     display: flex;
     margin-bottom: 100px;
-    
 }
 .login img{
     width: 400px;
@@ -202,9 +194,7 @@ h2{
 .login-form{
     padding-left: 40px;
     padding-top: 20px;
-    
 }
-
 .btn{
     padding-left: 10;
 }

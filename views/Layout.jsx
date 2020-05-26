@@ -1,11 +1,11 @@
-
 const React = require('react')
-
 const Layout = (props => {
+
    const logout = (
         <form action="/sessions/?_method=delete" method='post'>
             <input className="btn btn-secondary btn-sm" type="submit" value='Logout'/>
         </form>)
+
     return (
         <>
             <head>
@@ -17,8 +17,8 @@ const Layout = (props => {
             <body className='container-fluid'>
               <div className='body'>
                 <div className='grid'>
-
                   <nav className="navbar navbar-dark bg-dark">
+
                     <ul>
                       <li><a className="nav" href="/tour"><h1>Home</h1></a></li>
                       <li><a  className="nav" href="/tour/new"><h3>Create Sightsee </h3></a></li>
@@ -28,15 +28,16 @@ const Layout = (props => {
                     
                     <ul className='user'>
                       <li><a className="nav "  href="/user/new"><h3>Sing up</h3> </a></li>
-                      
                       <li><a className="nav "  href="/sessions/new"><h3>{props.isLogIn? 'logout' : 'login'}</h3> </a></li>
                     </ul>  
-
                   </nav>
-                  <header><img src="/img/2.jpg" alt=""/></header>                    
+
+                  <header><img src="/img/2.jpg" alt=""/></header>    
+
                   <main>
                     <div>{props.children}</div>
                   </main>
+
                   </div> 
                   <footer>
                   <img src="/img/log.jpeg" alt=""/>
@@ -52,15 +53,9 @@ const Layout = (props => {
                       <li><a className='link' href="#">twitter</a></li>
                       <li><a className='link' href="#">youtube</a></li>
                     </ul>
-                    
                   </div>
                   </footer>
-
-
                 </div>
-
-             
-              {/* </div>  */}
             </body>
         </>
     )

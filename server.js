@@ -33,24 +33,24 @@ app.use(
 app.set('view engine', 'jsx');
 app.engine('jsx', require('express-react-views').createEngine());
 
-//controllers 
+//___________________
+//Controllers 
+//___________________
 app.use('/tour' , tourController)
-
 app.use('/user', userController)
 
-//mongoose connection
-
+//___________________
+//Mongoose Connection
+//___________________
 mongoose.connect(process.env.MONGOURI, { useNewUrlParser: true, useUnifiedTopology: true });
 db.on('error', (err) => console.log(err.message + ' is Mongod not running?'));
 db.on('connected', () => console.log('mongo connected'));
 db.on('disconnected', () => console.log('mongo disconnected'));
 db.on('open' , ()=>{});
 
-////////////////
+//____________________
 //Authorization Routes
-////////////////
-
-
+//___________________
 const isAuthenticated = (req, res, next) => {
     if (req.session.currentUser) {
       return next()
@@ -59,10 +59,9 @@ const isAuthenticated = (req, res, next) => {
     }
   }
 
-
-
-
+//____________
 //LOGIN PAGE
+//_____________
 app.get('/sessions/new', (req, res) => {
     res.render('sessions/New', { currentUser: req.session.currentUser })
   })
@@ -92,12 +91,9 @@ app.delete('/sessions/', (req, res) => {
 
 module.exports = session
 
-
-
-
 //___________________
 //Listener
 //___________________
-app.listen(3000, () => {
+app.listen( process.env.PORT || 3000, () => {
     console.log('listening on: ' + port);
 });

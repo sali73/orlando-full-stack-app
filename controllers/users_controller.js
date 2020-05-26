@@ -13,9 +13,7 @@ users.post('/', (req, res) => {
         req.body.password,
         bcrypt.genSaltSync(10)
     );
-
     console.log(req.body);
-
     User.create(req.body, (err, createdUser) => {
         console.log(createdUser);
         res.redirect('/tour');

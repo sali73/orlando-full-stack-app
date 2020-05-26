@@ -23,7 +23,7 @@ class New extends React.Component {
                   <label for="exampleFormControlInput1">Rate :</label>
                   <input type="number" name="rate" className="form-control form-control-lg" /><br/>
 
-                  <label for="exampleFormControlInput1"> Price :</label>
+                  <label for="exampleFormControlInput1"> Price $:</label>
                   <input type="number" name="price" className="form-control form-control-lg" /><br/>
 
                   <label for="exampleFormControlInput1">Size: </label>

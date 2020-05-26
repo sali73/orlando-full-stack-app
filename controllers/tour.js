@@ -1,13 +1,9 @@
 
 const express = require('express');
 const tourController = express.Router();
-
-
 //BRING MANGOOSE AND SCHEMA
 const mongoose = require ('mongoose');
 const Tour = require('../models/tour.js');
-
-
 const isAuthenticated = (req, res, next) => {
     if (req.session.currentUser) {
       return next()
@@ -15,48 +11,36 @@ const isAuthenticated = (req, res, next) => {
       res.redirect('/sessions/new')
     }
   }
-
-
 //___________________
-// Routes
+// All Routes
 //___________________
-  
-  // ROUTE Gallery
-  
-
+  //ROUTE Gallery
   tourController.get('/gallery', (req, res)=>{
       res.render('Gallery');
   });
-  
   //ROUTE About
   tourController.get('/about', (req, res)=>{
       res.render('About');
   });
-  
   //ROUTE NEWwwwwww
   tourController.get('/new', (req, res)=>{
       res.render('New');
   });
   tourController.post('/', (req, res)=>{
-  
-      // res.send('received');
       Tour.create(req.body, (error, createdTour)=>{
           res.redirect('/tour');
       });
   });
-  
   //ROUTE INDEX
   tourController.get('/', (req, res) => {
       Tour.find({}, (error, allTour) => {
           res.render('Index', {
               tour: allTour,
-              username: req.session.currentUser
-             
+              username: req.session.currentUser        
           });
       });
   });
-  
-  // // seed
+  // ROUTE seed to add data to our db
   // tourController.get('/seed', (req, res) => {
   //     Tour.create([
   //         {
@@ -122,19 +106,15 @@ const isAuthenticated = (req, res, next) => {
   //             rate:4.7,
   //             price:450,
   //             size:'35000 sq ft',
-  //         },
-          
-         
+  //         },    
   //     ], (err, data) => {
   //         res.redirect('/tour');
   //     })
   // });
   
-  
-  
+
   //Route show 
   tourController.get('/:id',(req, res) => {
-      ///////////////////
       if (req.session.currentUser) {
         Tour.findById(req.params.id, (error, foundTour) => {
             res.render('Show', {
@@ -144,20 +124,15 @@ const isAuthenticated = (req, res, next) => {
         })
     }else{
         res.redirect('/sessions/new')
-
     }
   });
-  
-  //DELETE ROUTE
+  //ROUTE Delete
   tourController.delete('/:id',isAuthenticated,(req, res) => {
      Tour.findByIdAndRemove(req.params.id, (err, data) => {
           res.redirect('/tour');
       });
   });
-  
-  
-  
-  //ROUTE EDIT
+  //ROUTE Edit
   tourController.get('/edit/:id',isAuthenticated,(req, res) => {
       Tour.findById(req.params.id, (error, foundTour) => {
           res.render('Edit',
@@ -166,20 +141,10 @@ const isAuthenticated = (req, res, next) => {
         });
       });
   });
-  
   tourController.put('/edit/:id', (req, res) => {
       Tour.findByIdAndUpdate(req.params.id, req.body, (error, data) => {
           res.redirect('/tour');
       });
   });
-  
-  
-
-  
-  
-  
-  
-
-
-//exports
+//Exports
 module.exports=tourController
