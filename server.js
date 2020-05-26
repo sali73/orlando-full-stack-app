@@ -10,19 +10,22 @@ const methodOverride  = require('method-override');
 const show = console.log
 const tourController =require('./controllers/tour.js')
 const userController = require('./controllers/users_controller.js')
+require('dotenv').config()
+const port = process.env.PORT||3000
 const session = require('express-session')
 const User = require('./models/users.js')
 const bcrypt = require('bcrypt')
 
 
+// ///////////////////////////////////////////
 //___________________
 //Middleware
 //___________________
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
-require('dotenv').config()
-const port = process.env.PORT||3000
+
+
 app.use(
     session({
       secret: process.env.SECRET, 
@@ -35,7 +38,6 @@ app.engine('jsx', require('express-react-views').createEngine());
 
 //controllers 
 app.use('/tour' , tourController)
-
 app.use('/user', userController)
 
 //mongoose connection
@@ -50,13 +52,14 @@ db.on('open' , ()=>{});
 //Authorization Routes
 ////////////////
 
+
 const isAuthenticated = (req, res, next) => {
     if (req.session.currentUser) {
-        return next();
+      return next()
     } else {
-        res.redirect('/sessions/new');
+      res.redirect('/sessions/new')
     }
-  };
+  }
 
 
 
@@ -84,8 +87,8 @@ app.post('/sessions/', (req, res) => {
 })
 
 app.delete('/sessions/', (req, res) => {
-  req.sessions.destroy(() => {
-    res.redirect('/sessions/new')
+  req.session.destroy(() => {
+    res.redirect('/tour')
   })
 })
 

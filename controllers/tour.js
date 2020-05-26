@@ -7,11 +7,23 @@ const tourController = express.Router();
 const mongoose = require ('mongoose');
 const Tour = require('../models/tour.js');
 
+
+const isAuthenticated = (req, res, next) => {
+    if (req.session.currentUser) {
+      return next()
+    } else {
+      res.redirect('/sessions/new')
+    }
+  }
+
+
 //___________________
 // Routes
 //___________________
   
   // ROUTE Gallery
+  
+
   tourController.get('/gallery', (req, res)=>{
       res.render('Gallery');
   });
@@ -38,7 +50,8 @@ const Tour = require('../models/tour.js');
       Tour.find({}, (error, allTour) => {
           res.render('Index', {
               tour: allTour,
-              // username: req.session.currentUser,
+              username: req.session.currentUser
+             
           });
       });
   });
@@ -121,15 +134,22 @@ const Tour = require('../models/tour.js');
   
   //Route show 
   tourController.get('/:id',(req, res) => {
-      Tour.findById(req.params.id, (error, foundTour) => {
-          res.render('Show', {
-              tour: foundTour,
-          });
-      });
+      ///////////////////
+      if (req.session.currentUser) {
+        Tour.findById(req.params.id, (error, foundTour) => {
+            res.render('Show', {
+                tour: foundTour,
+                currentUser: req.session.currentUser
+            });
+        })
+    }else{
+        res.redirect('/sessions/new')
+
+    }
   });
   
   //DELETE ROUTE
-  tourController.delete('/:id',(req, res) => {
+  tourController.delete('/:id',isAuthenticated,(req, res) => {
      Tour.findByIdAndRemove(req.params.id, (err, data) => {
           res.redirect('/tour');
       });
@@ -138,10 +158,12 @@ const Tour = require('../models/tour.js');
   
   
   //ROUTE EDIT
-  tourController.get('/edit/:id',(req, res) => {
+  tourController.get('/edit/:id',isAuthenticated,(req, res) => {
       Tour.findById(req.params.id, (error, foundTour) => {
           res.render('Edit',
-           { tour: foundTour });
+           { tour: foundTour ,
+            currentUser: req.session.currentUser
+        });
       });
   });
   

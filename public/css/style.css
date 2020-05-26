@@ -130,7 +130,7 @@ footer > div ul{
     background-color: rgb(42, 66, 203);
     margin: 50px;
     width: 800px;
-    height: 500px;
+    height: 1000px;
     padding-top: 80px; 
 }
 .show ,h2{
@@ -204,9 +204,7 @@ h2{
     padding-top: 20px;
     
 }
-.login-h1{
-    text-decoration: underline;
-}
+
 .btn{
     padding-left: 10;
 }

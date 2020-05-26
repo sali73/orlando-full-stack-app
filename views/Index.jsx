@@ -3,22 +3,26 @@ const Layout= require('./Layout.jsx');
 
 class Index extends React.Component {
   render() {
+
+    
+
     return (
 
-        <Layout>
+        <Layout  isLogIn ={!!this.props.username}>
             
-            <nav>
-                {/* <a href="/tour/new">Create a New tour</a> */}
-            </nav>
             <>
-                {
-                   this.props.tour.map((tour, i) => {
+            
+                
+                {this.props.tour.map((tour, i) => {
                     return (
+                        
                         <div >
+                            
                             <div className='index'>
                                 <div className='card'>
                                     
                                     <img src={tour.img}  class="card-img-top" alt=""/>
+                                    
                                     <div class="card-body">
                                     <a href={`/tour/${tour._id}`}><h4>{tour.name}</h4></a><br/>
                                 </div>

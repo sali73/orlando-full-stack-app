@@ -2,6 +2,10 @@
 const React = require('react')
 
 const Layout = (props => {
+   const logout = (
+        <form action="/sessions/?_method=delete" method='post'>
+            <input class="btn btn-secondary btn-sm" type="submit" value='Logout'/>
+        </form>)
     return (
         <>
             <head>
@@ -18,12 +22,14 @@ const Layout = (props => {
                     <ul>
                       <li><a className="nav" href="/tour"><h1>Home</h1></a></li>
                       <li><a  className="nav" href="/tour/new"><h3>Create Sightsee </h3></a></li>
-                      <li><a className="nav"  href="/tour/gallery"><h3>Gallery</h3> </a></li>
-                      <li><a className="nav"  href="/tour/about"><h3>About</h3></a></li>
+                      <li><a className="nav" href="/tour/gallery"><h3>Gallery</h3> </a></li>
+                      <li><a className="nav" href="/tour/about"><h3>About</h3></a></li>
                     </ul> 
+                    
                     <ul className='user'>
-                      <li><a className="nav "  href="/user/new"><h3>Singup</h3> </a></li>
-                      <li><a className="nav "  href="/sessions/new"><h3>Login</h3> </a></li>
+                      <li><a className="nav "  href="/user/new"><h3>Sing up</h3> </a></li>
+                      
+                      <li><a className="nav "  href="/sessions/new"><h3>{props.isLogIn? 'logout' : 'login'}</h3> </a></li>
                     </ul>  
 
                   </nav>
