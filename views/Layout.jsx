@@ -4,7 +4,7 @@ const React = require('react')
 const Layout = (props => {
    const logout = (
         <form action="/sessions/?_method=delete" method='post'>
-            <input class="btn btn-secondary btn-sm" type="submit" value='Logout'/>
+            <input className="btn btn-secondary btn-sm" type="submit" value='Logout'/>
         </form>)
     return (
         <>
@@ -16,9 +16,9 @@ const Layout = (props => {
 
             <body className='container-fluid'>
               <div className='body'>
-                <div class='grid'>
+                <div className='grid'>
 
-                  <nav class="navbar navbar-dark bg-dark">
+                  <nav className="navbar navbar-dark bg-dark">
                     <ul>
                       <li><a className="nav" href="/tour"><h1>Home</h1></a></li>
                       <li><a  className="nav" href="/tour/new"><h3>Create Sightsee </h3></a></li>

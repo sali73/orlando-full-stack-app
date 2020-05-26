@@ -20,7 +20,7 @@ class Edit extends React.Component {
                         Size: <input type="text" name="size" value={tour.size} class="form-control form-control-lg" /><br/>
                         {/* Details:<input type="text" name="textarea" /><br/> */}
                         
-                        <input type="submit" name="" value="Edit tour" class="btn btn-secondary btn-lg btn-block"/>
+                        <input type="submit" name="" value="Edit tour" className="btn btn-secondary btn-lg btn-block"/>
                     </form>
                 </div>
             </Layout>
