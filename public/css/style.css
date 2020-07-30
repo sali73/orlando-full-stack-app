@@ -68,13 +68,14 @@ footer > img{
 }
 footer > ul{
     list-style: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     justify-items: left;
     color: rgba(252, 202, 116,.6);
 }
 footer > div ul{
+    padding-top: 20px;
     list-style: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 50px;
     justify-items: left;
 }
