@@ -42,7 +42,7 @@ header {
 }
 header > img{
     height: 100%;
-    width: 100%;
+    width: 98%;
 }
 main{
     background-color:rgb(42, 66, 203);
