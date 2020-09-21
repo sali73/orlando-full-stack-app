@@ -15,12 +15,12 @@ nav{
 }
 nav > ul{
     display: flex;
-    list-style: none; 
+    list-style: none;
 }
 .nav{
     font-size: 1.7em;
-    padding-left: 40px;
-    color: rgb(252, 202, 116);   
+    padding-right: 15px;
+    color: rgb(252, 202, 116);
 }
 .nav h3{
     margin-top: 10px;

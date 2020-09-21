@@ -29,9 +29,7 @@ const Layout = (props => {
                       <li><a className="nav "  href="/sessions/new"><h3>{props.isLogIn? 'logout' : 'login'}</h3> </a></li>
                     </ul>  
                   </nav>
-
-                  <header><img src="/img/2.jpg" alt=""/></header>    
-
+                  <header><img src="/img/2.jpg" alt=""/></header>
                   <main>
                     <div className='data'>{props.children}</div>
                   </main>
