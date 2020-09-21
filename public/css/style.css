@@ -30,6 +30,7 @@ nav > ul{
 }
 .user{
     float: left;
+    margin-left: -60px;
 }
 .body{
     background-color: rgb(45, 44, 44);
