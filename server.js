@@ -42,6 +42,9 @@ app.use('/user', userController)
 //___________________
 //Mongoose Connection
 //___________________
+
+mongodb+srv://salimohamed:Sa101209ah@@cluster0.tggey.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority
+
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 db.on('error', (err) => console.log(err.message + ' is Mongod not running?'));
 db.on('connected', () => console.log('mongo connected'));
