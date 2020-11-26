@@ -23,12 +23,13 @@ const Layout = (props => {
                       <li><a className="nav" href="/tour/new"><h3>Create Sightseeing </h3></a></li>
                       <li><a className="nav" href="/tour/gallery"><h3>Gallery</h3> </a></li>
                       <li><a className="nav" href="/tour/about"><h3>About</h3></a></li>
-                    </ul> 
-                    <ul className='user'>
-                      <li><a className="nav "  href="/user/new"><h3>Sing up</h3> </a></li>
-                      <li><a className="nav "  href="/sessions/new"><h3>{props.isLogIn? 'logout' : 'login'}</h3> </a></li>
-                    </ul>  
+                      <div className='user'>
+                          <li><a className="nav "  href="/user/new"><h3>Sing up</h3> </a></li>
+                          <li><a className="nav "  href="/sessions/new"><h3>{props.isLogIn? 'logout' : 'login'}</h3> </a></li>
+                      </div>
+                    </ul>
                   </nav>
+
                   <header></header>
                   <main>
                     <div className='data'>{props.children}</div>
