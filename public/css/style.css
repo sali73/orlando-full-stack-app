@@ -131,15 +131,11 @@ footer > div ul{
 .jumbotron {
     margin: 50px;
     width: 800px;
-    height: 1200px;
+    height: 1000px;
     padding-top: 80px; 
 }
 .show ,h2{
     color: #343a40;
-}
-h3 {
-    color: white;
-    line-height: 70px;
 }
 .show-text{
     border: 2px solid;
