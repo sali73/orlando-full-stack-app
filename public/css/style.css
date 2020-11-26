@@ -29,8 +29,8 @@ nav > ul{
     margin-top: 19px;
 }
 .user{
-    float: left;
-    margin-left: -60px;
+    float: right;
+    margin-left: -20px;
 }
 .body{
     background-color: rgb(45, 44, 44);
