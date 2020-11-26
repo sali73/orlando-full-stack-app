@@ -9,7 +9,7 @@ class Show extends React.Component {
                 <div className="jumbotron ">
                     <div className="col-md-12">< img src={img} class="card-img"/></div><br/>
                     <div className='show'>
-                        <h1 className='title-two'> Name : {name} </h1><br/>
+                        <h1 className='title'> Name : {name} </h1><br/>
                         <h3> Located at  {location}</h3>
                         <h3>Rate : {rate}</h3>
                         <h3> Price : ${price}</h3>
