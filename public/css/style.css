@@ -40,11 +40,11 @@ header {
     background-image: url("../img/2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 80%;
+    width: 80%;
+    margin: 20px auto;
 }
-header > img{
-    height: 100%;
-    width: 100%;
-}
+
 main{
     background-color:rgba(255, 255, 255, .8);
     width: 1200px;
