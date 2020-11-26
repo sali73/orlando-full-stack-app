@@ -34,7 +34,8 @@ nav > ul{
     margin-left: 10px;
 }
 .body{
-    background-color: rgb(45, 44, 44);
+    /*background-color: rgb(45, 44, 44);*/
+    background-color: lightgray;
     width: 1420px;
 }
 header {
@@ -200,7 +201,7 @@ h3 {
     padding-top: 20px;
 }
 .btn{
-    padding-left: 10;
+    padding-left: 10px;
 }
 
 
