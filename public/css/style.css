@@ -18,7 +18,7 @@ nav > ul{
     list-style: none;
 }
 .nav{
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding-right: 15px;
     color: rgb(252, 202, 116);
 }
@@ -33,7 +33,7 @@ nav > ul{
 }
 .body{
     background-color: rgb(45, 44, 44);
-    width: 1300px;
+    width: 1500px;
 }
 header {
     grid-area: hd;
