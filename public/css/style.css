@@ -35,7 +35,7 @@ nav > ul{
 }
 .body{
     background-color: rgb(45, 44, 44);
-    width: 1410px;
+    width: 1420px;
 }
 header {
     grid-area: hd;
@@ -55,7 +55,7 @@ main{
     margin-top: 60px;   
 }
 footer{
-    background-color: rgb(42, 66, 203);
+    /*background-color: rgb(42, 66, 203);*/
     grid-area: ftr;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
