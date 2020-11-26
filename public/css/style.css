@@ -35,7 +35,7 @@ nav > ul{
 }
 .body{
     background-color: rgb(45, 44, 44);
-    width: 1430px;
+    width: 1410px;
 }
 header {
     grid-area: hd;
