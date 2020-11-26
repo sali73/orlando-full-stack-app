@@ -20,7 +20,7 @@ nav > ul{
 .nav{
     font-size: 1em;
     padding-right: 5px;
-    color: rgb(252, 202, 116);
+    /*color: rgb(252, 202, 116);*/
 }
 .nav h3{
     margin-top: 10px;
@@ -35,7 +35,6 @@ nav > ul{
 }
 .body{
     /*background-color: rgb(45, 44, 44);*/
-    background-color: lightgray;
     width: 1420px;
 }
 header {
@@ -120,7 +119,7 @@ footer > div ul{
     color: rgb(252, 202, 116);
     font-size: 1.5em;
     padding: 60px 250px  40px  90px;
-    background-color:rgba(255, 255, 255, .8);
+    /*background-color:rgba(255, 255, 255, .8);*/
 }
 .jumbotron {
     background-color: rgb(42, 66, 203);
@@ -142,7 +141,7 @@ h3 {
     line-height: 50px;
 }
 .jumbotron-fluid{
-    background-color: rgb(42, 66, 203);
+    /*background-color: rgb(42, 66, 203);*/
     margin-top: 40px;
     padding-right: 80px;
     line-height: 2.5em;
@@ -164,7 +163,7 @@ h3 {
     font-size: 1.5em;
 }
 .gallery{
-    background-color:rgba(255, 255, 255, .8);
+    /*background-color:rgba(255, 255, 255, .8);*/
     margin-top: 40px;
     color: rgb(252, 202, 116);
 }
