@@ -126,7 +126,7 @@ footer > div ul{
 .jumbotron {
     margin: 50px;
     width: 800px;
-    height: 1700px;
+    height: 600px;
     padding-top: 80px; 
 }
 .show ,h2{
@@ -200,6 +200,9 @@ h3 {
 }
 .btn{
     padding-left: 10px;
+}
+.show h3{
+    color: #343a40;
 }
 
 
