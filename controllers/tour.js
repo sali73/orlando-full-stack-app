@@ -40,7 +40,9 @@ const isAuthenticated = (req, res, next) => {
           });
       });
   });
-  ROUTE seed to add data to our db
+
+
+  // ROUTE seed to add data to our db
   tourController.get('/seed', (req, res) => {
       Tour.create([
           {
@@ -119,7 +121,7 @@ const isAuthenticated = (req, res, next) => {
         Tour.findById(req.params.id, (error, foundTour) => {
             res.render('Show', {
                 tour: foundTour,
-                currentUser: req.session.currentUser
+                // currentUser: req.session.currentUser
             });
         })
     }else{
