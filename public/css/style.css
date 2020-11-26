@@ -62,13 +62,6 @@ footer{
     align-items: center;
     margin-top: -100px;
 }
-.title{
-    font-size: 1.9em;
-    color: chocolate;
-    font-weight: bold;
-    margin: 5px auto;
-
-}
 footer > img{
     width: 30%;
     border-radius: 50%;
@@ -183,10 +176,13 @@ h3 {
     margin: 10px;
     border-radius: 5%;
 }
-.gallery-h1{
+.title{
     padding-bottom: 50px;
     text-align: center;
     font-size: 3em;
+    color: chocolate;
+    font-weight: bold;
+    margin: 5px auto;
 }
 .login{
     width: 950px;

@@ -9,7 +9,7 @@ class Edit extends React.Component {
                     <form
                         action={`/tour/edit/${tour._id}?_method=put`}
                         method="POST">
-                        <h1 className='login-h1'> Edit To Our sightseeing!!</h1><br/>    
+                        <h1 className='title'> Edit To Our sightseeing!!</h1><br/>
                         Name: <input type="text" name="name" value={tour.name} className="form-control form-control-lg" /><br/>
                         Location: <input type="text" name="location" value={tour.location} className="form-control form-control-lg"  /><br/>
                         Image : <input type="text" name="img"  value={tour.img} className="form-control form-control-lg" /><br/>
