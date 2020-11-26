@@ -63,10 +63,11 @@ footer{
     margin-top: -100px;
 }
 .title{
-    font-size: 1.6em;
+    font-size: 1.9em;
     color: chocolate;
     font-weight: bold;
     margin: 5px auto;
+
 }
 footer > img{
     width: 30%;
@@ -174,6 +175,7 @@ h3 {
     display: flex ;
     flex-wrap: wrap ;
     justify-content: space-around;
+    margin-top: 30px;
 }
 .slider img{
     width: 380px;
