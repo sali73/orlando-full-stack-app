@@ -40,9 +40,9 @@ header {
     background-image: url("../img/2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
-    width: 80%;
-    margin: 20px auto;
+    height: 100%;
+    width: 100%;
+    margin: 10px auto;
 }
 
 main{
@@ -60,6 +60,11 @@ footer{
     justify-items: center;
     align-items: center;
     margin-top: -100px;
+}
+.title{
+    font-size: 1.6em;
+    color: chocolate;
+    font-weight: bold;
 }
 footer > img{
     width: 30%;
@@ -102,7 +107,8 @@ footer > div ul{
 .card{
     width: 18rem;
     height: 20rem;
-    margin-top: 40px;     
+    margin-top: 40px;
+    border-radius: 2px solid #fcca74;
 }
 .card a{
     font-size: 1em;
@@ -120,17 +126,17 @@ footer > div ul{
     /*background-color:rgba(255, 255, 255, .8);*/
 }
 .jumbotron {
-    background-color: rgb(42, 66, 203);
+    /*background-color: rgb(42, 66, 203);*/
     margin: 50px;
     width: 800px;
     height: 1700px;
     padding-top: 80px; 
 }
 .show ,h2{
-    color: rgb(252, 202, 116);
+    color: #343a40;
 }
 h3 {
-    color: rgb(252, 202, 116);
+    color: #343a40;
     line-height: 70px;
 }
 .show-text{
@@ -161,7 +167,7 @@ h3 {
 }
 .gallery{
     margin-top: 40px;
-    color: rgb(252, 202, 116);
+    color: #343a40;
 }
 .slider ul{
     list-style: none;
