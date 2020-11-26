@@ -20,7 +20,7 @@ const Layout = (props => {
                   <nav className="navbar navbar-dark bg-dark">
                     <ul>
                       <li><a className="nav" href="/tour"><h1>Home</h1></a></li>
-                      <li><a  className="nav" href="/tour/new"><h3>Create Sightseeing </h3></a></li>
+                      <li><a className="nav" href="/tour/new"><h3>Create Sightseeing </h3></a></li>
                       <li><a className="nav" href="/tour/gallery"><h3>Gallery</h3> </a></li>
                       <li><a className="nav" href="/tour/about"><h3>About</h3></a></li>
                     </ul> 
