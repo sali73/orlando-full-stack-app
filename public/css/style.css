@@ -12,7 +12,6 @@ body{
 }
 nav{
     grid-area: nav;
-    color: chocolate;
 }
 nav > ul{
     display: flex;
@@ -26,9 +25,10 @@ nav > ul{
     margin-top: 10px;
     padding-left: 10px;
 }
-.nav h1{
+.nav ul li h1{
     margin-top: 19px;
     padding-right: 20px;
+    color: chocolate;
 }
 .user{
     margin-left: 10px;
