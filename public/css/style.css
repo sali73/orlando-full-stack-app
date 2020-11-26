@@ -66,7 +66,7 @@ footer{
     font-weight: bold;
 }
 .title-two{
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: chocolate;
     font-weight: bold;
 }
@@ -131,7 +131,7 @@ footer > div ul{
 .jumbotron {
     margin: 50px;
     width: 800px;
-    height: 1300px;
+    height: 1200px;
     padding-top: 80px; 
 }
 .show ,h2{
@@ -182,11 +182,6 @@ h3 {
     height: 280px;
     margin: 10px;
     border-radius: 5%;
-}
-.title{
-    padding-bottom: 50px;
-    text-align: center;
-    font-size: 3em;
 }
 .login{
     width: 950px;
