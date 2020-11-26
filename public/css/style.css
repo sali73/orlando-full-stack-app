@@ -29,11 +29,11 @@ nav > ul{
     margin-top: 19px;
 }
 .user{
-    margin-left: 0px;
+    margin-left: 10px;
 }
 .body{
     background-color: rgb(45, 44, 44);
-    width: 1450px;
+    width: 1430px;
 }
 header {
     grid-area: hd;
@@ -42,7 +42,7 @@ header {
 }
 header > img{
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 main{
     background-color:rgb(42, 66, 203);
