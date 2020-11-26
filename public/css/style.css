@@ -37,6 +37,7 @@ nav > ul{
 }
 header {
     grid-area: hd;
+    background-image: url("../img/2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
