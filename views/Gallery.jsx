@@ -6,7 +6,7 @@ class Gallery extends React.Component {
         return (
             <Layout>
                 <div className="jumbotron-fluid gallery">
-                    <h1 className='title'> Wellcome To Orlando Gallery</h1>
+                    {/*<h1 className='title'> Wellcome To Orlando Gallery</h1>*/}
                     <div className= 'slider'>
                         <ul>
                             <li>
