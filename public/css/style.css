@@ -65,6 +65,11 @@ footer{
     color: chocolate;
     font-weight: bold;
 }
+.title-two{
+    font-size: 1.1em;
+    color: chocolate;
+    font-weight: bold;
+}
 footer > img{
     width: 30%;
     border-radius: 50%;
@@ -126,7 +131,7 @@ footer > div ul{
 .jumbotron {
     margin: 50px;
     width: 800px;
-    height: 1400px;
+    height: 1300px;
     padding-top: 80px; 
 }
 .show ,h2{
@@ -179,15 +184,6 @@ h3 {
     border-radius: 5%;
 }
 .title{
-    padding-bottom: 50px;
-    text-align: center;
-    font-size: 3em;
-}
-.title-two{
-    padding-bottom: 50px;
-    text-align: center;
-    font-size: 2em;
-}{
     padding-bottom: 50px;
     text-align: center;
     font-size: 3em;
