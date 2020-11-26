@@ -50,7 +50,7 @@ main{
     padding-left: 130px;
     margin-left: 165px;
     grid-area: mn; 
-    margin-top: 100px;
+    margin-top: 150px;
 }
 footer{
     grid-area: ftr;
