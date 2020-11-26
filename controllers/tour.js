@@ -119,7 +119,7 @@ const isAuthenticated = (req, res, next) => {
         Tour.findById(req.params.id, (error, foundTour) => {
             res.render('Show', {
                 tour: foundTour,
-                // currentUser: req.session.currentUser
+                currentUser: req.session.currentUser
             });
         })
     }else{
