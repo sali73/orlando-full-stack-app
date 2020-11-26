@@ -117,23 +117,20 @@ const isAuthenticated = (req, res, next) => {
 
   //Route show 
   tourController.get('/:id',(req, res) => {
-      if (req.session.currentUser) {
         Tour.findById(req.params.id, (error, foundTour) => {
             res.render('Show', {
                 tour: foundTour,
-                // currentUser: req.session.currentUser
             });
         })
-    }else{
-        res.redirect('/sessions/new')
-    }
   });
+
   //ROUTE Delete
   tourController.delete('/:id',isAuthenticated,(req, res) => {
      Tour.findByIdAndRemove(req.params.id, (err, data) => {
           res.redirect('/tour');
       });
   });
+
   //ROUTE Edit
   tourController.get('/edit/:id',isAuthenticated,(req, res) => {
       Tour.findById(req.params.id, (error, foundTour) => {
