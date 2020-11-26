@@ -47,7 +47,7 @@ header > img{
     width: 100%;
 }
 main{
-    background-color:rgb(42, 66, 203);
+    background-color:rgba(42, 66, 203, .7);
     width: 1200px;
     padding-left: 130px;
     margin-left: 165px;
