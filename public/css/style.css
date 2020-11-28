@@ -11,7 +11,6 @@ body{
     "ftr ftr ftr ftr ftr";    
     grid-template-rows: 65px 500px  80px auto 160px;
 }
-
 nav{
     grid-area: nav;
     background-color: #343a40;
@@ -25,14 +24,18 @@ nav > ul{
     padding-left: 13px;
     font-size: 1.2em;
 }
+.navbar h3{
+    color: white;
+    padding-top: 10px;
+}
 div .user{
-    margin-left: 10px;
+    margin-left: 70px;
     float: right;
     display: flex;
 }
-.body{
-    width: 1420px;
-}
+/*.body{*/
+/*    width: 1400px;*/
+/*}*/
 header {
     grid-area: hd;
     background-image: url("../img/92.jpg");
@@ -55,8 +58,8 @@ article{
 }
 main{
     background-color:rgba(255, 255, 255, .8);
-    width: 1200px;
-    margin-left: 300px;
+    width: 1000px;
+    margin-left: 100px;
     grid-area: mn; 
     margin-top: 60px;
 }
@@ -208,10 +211,7 @@ footer > div ul{
 .show h3{
     color: #343a40;
 }
-.navbar h3{
-    color: white;
-    padding-top: 10px;
-}
+
 
 
 
