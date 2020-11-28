@@ -283,7 +283,7 @@ footer > div ul{
 /*  }*/
 /*}*/
 
-@media all and (max-width: 600px) and (orientation:landscape)
+@media (max-width: 600px)
 {
     .jumbotron  {
       height: 3000px;
