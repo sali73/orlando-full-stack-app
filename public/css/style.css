@@ -9,7 +9,7 @@ body{
     "art art art art art"
     "mn mn mn mn mn"
     "ftr ftr ftr ftr ftr";    
-    grid-template-rows: 80px 500px  80px auto 160px;
+    grid-template-rows: 65px 500px  80px auto 160px;
 }
 
 nav{
@@ -41,7 +41,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 1200px;
+    width: 1400px;
 }
 article{
     grid-area: art;
