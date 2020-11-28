@@ -203,9 +203,6 @@ footer > div ul{
     padding-left: 40px;
     padding-top: 20px;
 }
-/*.btn{*/
-/*    padding-left: 7px;*/
-/*}*/
 .show h3{
     color: #343a40;
 }
@@ -222,6 +219,7 @@ footer > div ul{
   grid-template-columns:
     repeat(3, 1fr);
   grid-gap: 5px;
+ height: 1000px;
 }
 
 .item:nth-child(1) {
