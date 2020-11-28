@@ -17,7 +17,7 @@ const Layout = (props => {
             <body className='container-fluid'>
               <div className='body'>
                 <div className='grid'>
-                  <nav className="navbar navbar-dark bg-dark">
+                  <nav className="navbar">
                     <ul>
                       <li><a className="nav" href="/tour"><h3>Home</h3></a></li>
                       <li><a className="nav" href="/tour/new"><h3>Create Sightseeing </h3></a></li>

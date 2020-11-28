@@ -59,7 +59,7 @@ main{
     width: 1200px;
     margin-left: 145px;
     grid-area: mn; 
-    margin-top: 40px;
+    margin-top: 60px;
 }
 footer{
     grid-area: ftr;
