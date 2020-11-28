@@ -29,7 +29,7 @@ nav > ul{
     padding-top: 10px;
 }
 div .user{
-    margin-left: 700px;
+    margin-left: 800px;
     float: right;
     display: flex;
 }
@@ -172,22 +172,6 @@ footer > div ul{
 .about > p{
     font-size: 1.3em;
 }
-/*.gallery{*/
-/*    margin-top: 40px;*/
-/*    color: #343a40;*/
-/*}*/
-/*.slider ul{*/
-/*    list-style: none;*/
-/*    display: flex ;*/
-/*    flex-wrap: wrap ;*/
-/*    justify-content: space-around;*/
-/*}*/
-/*.slider img{*/
-/*    width: 380px;*/
-/*    height: 280px;*/
-/*    margin: 10px;*/
-/*    border-radius: 5%;*/
-/*}*/
 .login{
     width: 950px;
     height: 500px;
