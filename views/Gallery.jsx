@@ -7,7 +7,7 @@ class Gallery extends React.Component {
             <Layout>
                 <div className="jumbotron ">
                    <h1>Gellary!</h1>
-                    <div className="grid">
+                    <div className="gallery">
 
                         <div className="item"
                              style={{backgroundImage: 'url(https://www.triconamericanhomes.com/files/orlando_city.jpg)' }}></div>
