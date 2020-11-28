@@ -21,12 +21,11 @@ nav > ul{
     list-style: none;
 }
 .nav{
-    font-size: .5em;
     padding-right: 5px;
 }
 .nav h3{
     padding-left: 13px;
-    font-size: .5em;
+    font-size: .8em;
 }
 div .user{
     margin-left: 10px;
@@ -42,7 +41,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 100%;
+    width: 80%;
 }
 article{
     grid-area: art;
