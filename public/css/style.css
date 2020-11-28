@@ -9,7 +9,7 @@ body{
     "title title title title "
     "mn mn mn mn mn"
     "ftr ftr ftr ftr ftr";    
-    grid-template-rows: 80px 500px  auto 160px;
+    grid-template-rows: 80px 500px 80px auto 160px;
 }
 .main-title{
     grid-area: title;
