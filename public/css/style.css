@@ -20,12 +20,9 @@ nav > ul{
     display: flex;
     list-style: none;
 }
-.nav{
-    padding-right: 5px;
-}
 .nav h3{
     padding-left: 13px;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 div .user{
     margin-left: 10px;
@@ -41,7 +38,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 1480px;
+    width: 1430px;
 }
 article{
     grid-area: art;
@@ -57,7 +54,7 @@ article{
 main{
     background-color:rgba(255, 255, 255, .8);
     width: 1200px;
-    margin-left: 145px;
+    margin-left: 185px;
     grid-area: mn; 
     margin-top: 60px;
 }
