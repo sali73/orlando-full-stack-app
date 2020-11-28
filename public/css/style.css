@@ -39,7 +39,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 1400px;
+    width: 1420px;
 }
 article{
     grid-area: art;
@@ -49,7 +49,7 @@ article{
     padding-bottom: 90px;
     font-weight: bold;
     font-family: "GB18030 Bitmap", serif;
-    width: 1430px;
+    width: 1420px;
     text-align: center;
     font-size: 2em;
 }
