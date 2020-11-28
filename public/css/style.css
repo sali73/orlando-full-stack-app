@@ -40,6 +40,7 @@ header {
     height: 100%;
     width: 100%;
     margin: 10px auto;
+    border-bottom: 6px solid #343a40;
 }
 main{
     background-color:rgba(255, 255, 255, .8);
