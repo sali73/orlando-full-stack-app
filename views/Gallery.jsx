@@ -42,15 +42,15 @@ class Gallery extends React.Component {
 
 
 
-                    <div className="item" style={{backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5kw6a_qUxTQUdcifoq4vJ6cRqBD0d6SM006NnPHu3_8hZ7wEy&usqp=CAU')" }}></div>
+                    <div className="item" style={{backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5kw6a_qUxTQUdcifoq4vJ6cRqBD0d6SM006NnPHu3_8hZ7wEy&usqp=CAU')"}}/>
 
-                    <div className="item" style={{backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJvRVGMmplmtndMEfNmUaaryfCUYWtLTUApzrCyZz_e1FVqmct&usqp=CAU')"}}></div>
+                    <div className="item" style={{backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJvRVGMmplmtndMEfNmUaaryfCUYWtLTUApzrCyZz_e1FVqmct&usqp=CAU')"}}/>
 
-                    <div className="item" style={{backgroundImage:" url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSLNtt16VCcmBEZCLH3RwHlLweqC-0sMzVkGbX4-1QbjpIOigvt&usqp=CAU')"}}></div>
+                    <div className="item" style={{backgroundImage: " url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSLNtt16VCcmBEZCLH3RwHlLweqC-0sMzVkGbX4-1QbjpIOigvt&usqp=CAU')"}}/>
 
-                    <div className="item" style={{backgroundImage:" url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSLqLeK7pPO7FbBsC-HSnYLHj_b7w0U23ezK0rn-16NbVwmgbg&usqp=CAU')"}}></div>
+                    <div className="item" style={{backgroundImage: " url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSLqLeK7pPO7FbBsC-HSnYLHj_b7w0U23ezK0rn-16NbVwmgbg&usqp=CAU')"}}/>
 
-                    <div className="item" style={{backgroundImage:"url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9_ghoworyfDLoj8bfKMy0D---m6RLVoGeUw4JBBSTgcX94X9D&usqp=CAU')" }}></div>
+                    <div className="item" style={{backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9_ghoworyfDLoj8bfKMy0D---m6RLVoGeUw4JBBSTgcX94X9D&usqp=CAU')"}}/>
 
                 </div>
             </Layout>
