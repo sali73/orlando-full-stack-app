@@ -285,14 +285,13 @@ footer > div ul{
 
 @media (max-width: 600px)
 {
-    .jumbotron  {
-      height: 3000px;
-
-  }
-    .about{
-        height: 3000px;
-    }
-    .new{
-        height: 3000px;
-    }
+   footer{
+    grid-area: ftr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1900px;
+    width: 1420px;
+}
 }
