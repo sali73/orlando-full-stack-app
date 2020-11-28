@@ -6,10 +6,12 @@ body{
     grid-template-areas: 
     "nav nav nav nav nav"
     "hd hd hd hd hd"
+    "art art art art art"
     "mn mn mn mn mn"
     "ftr ftr ftr ftr ftr";    
-    grid-template-rows: 80px 500px  auto 160px;
+    grid-template-rows: 80px 500px  80px auto 160px;
 }
+
 nav{
     grid-area: nav;
 }
@@ -37,11 +39,21 @@ header {
     background-image: url("../img/32.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
+    height: 100%;
     width: 100%;
     margin: 10px auto;
     border-bottom: 16px solid #343a40;
     border-top: 16px solid #343a40;
+}
+article{
+    grid-area: art;
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "GB18030 Bitmap";
 }
 main{
     background-color:rgba(255, 255, 255, .8);
@@ -49,7 +61,7 @@ main{
     padding-left: 130px;
     margin-left: 165px;
     grid-area: mn; 
-    margin-top: 150px;
+    margin-top: 50px;
 }
 footer{
     grid-area: ftr;
