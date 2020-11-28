@@ -31,6 +31,7 @@ const Layout = (props => {
                   </nav>
 
                   <header></header>
+                    <div className='main-title'> Orlando Tours! </div>
                   <main>
                     <div className='data'>{props.children}</div>
                   </main>
