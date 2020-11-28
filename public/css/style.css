@@ -87,7 +87,7 @@ footer > ul{
     list-style: none;
     font-size: 1.3em;
     justify-items: left;
-    color: rgba(252, 202, 116,.6);
+    color:white;
 }
 footer > div ul{
     padding-top: 20px;
