@@ -15,6 +15,7 @@ body{
 nav{
     grid-area: nav;
     background-color: #343a40;
+    width: 1420px;
 }
 nav > ul{
     display: flex;
@@ -34,11 +35,11 @@ div .user{
 }
 header {
     grid-area: hd;
-    background-image: url("../img/82.jpg");
+    background-image: url("../img/22.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 1450px;
+    width: 1420px;
 }
 article{
     grid-area: art;
@@ -48,7 +49,7 @@ article{
     padding-bottom: 90px;
     font-weight: bold;
     font-family: "GB18030 Bitmap", serif;
-    width: 100%;
+    width: 1420px;
     text-align: center;
     font-size: 2em;
 }
