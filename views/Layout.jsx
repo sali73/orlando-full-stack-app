@@ -37,7 +37,7 @@ const Layout = (props => {
                   </main>
 
                   </div> 
-                  <footer className='navbar-dark bg-dark'>
+                  <footer className='navbar-dark bg-dark' >
                   <img src="/img/log.jpeg" alt=""/>
                   <ul>
                     <li>About Us</li>

@@ -29,7 +29,7 @@ nav > ul{
     padding-top: 10px;
 }
 div .user{
-    margin-left: 670px;
+    margin-left: 700px;
     float: right;
     display: flex;
 }
@@ -67,6 +67,7 @@ footer{
     justify-items: center;
     align-items: center;
     margin-top: -100px;
+    width: 1420px;
 }
 .title{
     font-size: 1.8em;
@@ -202,9 +203,9 @@ footer > div ul{
     padding-left: 40px;
     padding-top: 20px;
 }
-.btn{
-    padding-left: 10px;
-}
+/*.btn{*/
+/*    padding-left: 7px;*/
+/*}*/
 .show h3{
     color: #343a40;
 }
