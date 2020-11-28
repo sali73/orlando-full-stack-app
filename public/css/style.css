@@ -41,7 +41,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 1400px;
+    width: 1480px;
 }
 article{
     grid-area: art;
@@ -84,7 +84,6 @@ footer{
 footer > img{
     width: 30%;
     border-radius: 50%;
-    font-weight: 1em;
 }
 footer > ul{
     list-style: none;
@@ -102,7 +101,6 @@ footer > div ul{
 .link{ 
     color: rgba(252, 202, 116,.6);
 }
-
 .index{
     float: left;   
     margin: 19px;  
