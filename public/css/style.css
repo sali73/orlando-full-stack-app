@@ -38,7 +38,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 1420px;
+    width: 1500px;
 }
 article{
     grid-area: art;
@@ -97,7 +97,7 @@ footer > div ul{
     justify-items: left;
 }
 .link{ 
-    color: rgba(252, 202, 116,.6);
+    color: white;
 }
 .index{
     float: left;   
