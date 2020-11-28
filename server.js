@@ -14,7 +14,6 @@ const session = require('express-session')
 const User = require('./models/users.js')
 const bcrypt = require('bcrypt')
 
-
 //___________________
 //Middleware
 //___________________
