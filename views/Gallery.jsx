@@ -6,7 +6,7 @@ class Gallery extends React.Component {
         return (
             <Layout>
                 <div className="jumbotron ">
-                   <h1>Gellary!</h1>
+                   <h1>Gallery!</h1>
                     <div className="gallery">
 
                         <div className="item"
