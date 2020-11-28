@@ -57,6 +57,8 @@ article{
     width: 1420px;
     text-align: center;
     font-size: 2em;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px chocolate;
+
 }
 
 /*//////////////////*/
@@ -277,7 +279,7 @@ footer > div ul{
 
 
 @media only screen and (max-width: 600px) {
-  .jumbotron , .new , .login , .about  {
+  .jumbotron  {
       height: 2000px;
   }
 }
