@@ -29,13 +29,10 @@ nav > ul{
     padding-top: 10px;
 }
 div .user{
-    margin-left: 270px;
+    margin-left: 470px;
     float: right;
     display: flex;
 }
-/*.body{*/
-/*    width: 1400px;*/
-/*}*/
 header {
     grid-area: hd;
     background-image: url("../img/92.jpg");
