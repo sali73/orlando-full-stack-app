@@ -6,7 +6,7 @@ class Gallery extends React.Component {
         return (
             <Layout>
                 <div className=class="grid">
-                    {/*<h1 className='title'> Wellcome To Orlando Gallery</h1>*/}
+                    <h1 className='title'> Wellcome To Orlando Gallery</h1>
                     {/*<div className= 'slider'>*/}
                     {/*    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvejO2CInjCNM3lptXr8DMgIpmqO-iE_D5r3qac--pX32WD0Md&usqp=CAU" alt=""/>*/}
                     {/*</div>*/}
@@ -34,9 +34,10 @@ class Gallery extends React.Component {
                     {/*<div>*/}
                     {/*    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJvRVGMmplmtndMEfNmUaaryfCUYWtLTUApzrCyZz_e1FVqmct&usqp=CAU" alt=""/>*/}
                     {/*</div>*/}
-                    <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5kw6a_qUxTQUdcifoq4vJ6cRqBD0d6SM006NnPHu3_8hZ7wEy&usqp=CAU" alt=""/>
-                    </div>
+                    {/*<div>*/}
+                    {/*    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5kw6a_qUxTQUdcifoq4vJ6cRqBD0d6SM006NnPHu3_8hZ7wEy&usqp=CAU" alt=""/>*/}
+                    {/*</div>*/}
+
 
                 </div>
             </Layout>
