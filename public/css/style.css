@@ -38,13 +38,13 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 1430px;
+    width: 1427px;
 }
 article{
     grid-area: art;
     background-color: #343a40;
     color: white;
-    padding: 10px;
+    padding: 20px;
     font-weight: bold;
     font-family: "GB18030 Bitmap", serif;
     width: 100%;
@@ -54,7 +54,7 @@ article{
 main{
     background-color:rgba(255, 255, 255, .8);
     width: 1200px;
-    margin-left: 185px;
+    margin-left: 200px;
     grid-area: mn; 
     margin-top: 60px;
 }

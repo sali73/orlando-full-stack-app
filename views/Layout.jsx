@@ -31,7 +31,7 @@ const Layout = (props => {
                   </nav>
 
                   <header></header>
-                  <article> Orlando Tour!</article>
+                  <article> Welcome To Orlando Tour!</article>
                   <main>
                     <div className='data'>{props.children}</div>
                   </main>
